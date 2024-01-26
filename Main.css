@@ -1,0 +1,47 @@
+body
+{
+    /*
+    Fits the theme of what I'm creating as text will end up being combinations of white and green.
+    I plan on making the font fit the idea of using a terminal rather than a website in a sense.
+    Obviously, I can't *actually* make a terminal with only HTML and CSS unless I get SUPER creative,
+    it's just better for more programming side of things rather than coding. What I mean is that Coding is like how HTML and CSS is,
+    where it's basic commands with results you can expect in that order. Programming to me is for more complex cases like making a calculator.
+    */
+    background-color: black;
+}
+
+header, nav, main, footer
+{
+    border: 5px, solid, white;
+    color: white;
+    font-family: Consolas, 'Courier New', monospace;
+    /*
+    The font is not apart of auto-fill but I found it in VS Code's settings,
+    I wanted to give it the 'programmer'/'coding' feel... so having a font
+    that gets used by Visual Studio was my idea to make it feel like it is.
+
+    The only issue is that I will need to test it on a device that doesn't have 
+    VS Code or VS and that isn't on windows, like mobile for example to see if it works.
+    */
+}
+
+nav
+{
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+main
+{
+    padding-top: 10px;
+}
+
+footer
+{
+    padding-top: 50px;    
+}
+
+.important-text /* NOTE TO SELF: Use LABEL for this. It works, it doesn't create new lines, it's just better. */
+{
+    color: green;
+}
