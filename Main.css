@@ -12,36 +12,55 @@ body
 
 header, nav, main, footer
 {
+    /*
+        The font is not apart of auto-fill but I found it in VS Code's settings,
+        I wanted to give it the 'programmer'/'coding' feel... so having a font
+        that gets used by Visual Studio was my idea to make it feel like it is.
+
+        The only issue is that I will need to test it on a device that doesn't have 
+        VS Code or VS and that isn't on windows, like mobile for example to see if it works.
+    */
     border: 5px, solid, white;
     color: white;
+    font-size: 17px;
     font-family: Consolas, 'Courier New', monospace;
-    /*
-    The font is not apart of auto-fill but I found it in VS Code's settings,
-    I wanted to give it the 'programmer'/'coding' feel... so having a font
-    that gets used by Visual Studio was my idea to make it feel like it is.
+    outline: rgb(0, 255, 0); /*Brighter green than green... lightgreen is just a large amount of white with green. I just want 255 green.*/
+    outline-style: dotted;
+    outline-offset: 2px;
+    text-indent: 1.5%;
+}
 
-    The only issue is that I will need to test it on a device that doesn't have 
-    VS Code or VS and that isn't on windows, like mobile for example to see if it works.
-    */
+header
+{
+    outline-style: solid;
+    text-indent: 1%;
 }
 
 nav
 {
     padding-top: 0px;
-    padding-bottom: 5px;
+}
+
+.border-spacer-main /*From nav to main.*/
+{
+    padding: 15px;
 }
 
 main
 {
-    padding-top: 10px;
+    padding-top: 0px;
+    width: 75%;
 }
 
-footer
+.border-spacer-footer /*From main/aside to footer.*/
 {
-    padding-top: 50px;    
+    padding: 20px;
 }
 
+/*-- TEXT CLASSES --*/
 .important-text /* NOTE TO SELF: Use LABEL for this. It works, it doesn't create new lines, it's just better. */
 {
-    color: green;
+    color: rgb(0, 255, 0);
+    font-size: 18px; /* Making it only *slightly* bigger to make it pop out that much more. */
+    font-weight: 1000;
 }
