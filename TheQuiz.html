@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>THE QUIZ</title>
+    </head>
+
+    <body>
+        <link rel="stylesheet" type="text/css" href="TheQuiz.css">
+
+        <header><h1>The Quiz!</h1></header>
+        <nav>Test your knowledge and see what you may have learned from my site! Or you can go back <a href="Main.html">here</a>!</nav>
+
+        <main>
+            <div class="question">
+                <h2 class="question-title-text"><u>Question #1</u></h2>
+                <p class="question-text">What is the purpose of a variable?</p>
+                <select class="solution-select" name="Solution #1" id="solution1">
+                    <option value="na">-- Please Pick an Option --</option>
+                    <option value="a">A) Type of program you are trying to make.</option>
+                    <option value="b">B) Name of a system environment. </option>
+                    <option value="c">C) A named value that is stored in memory.</option>
+                    <option value="d">D) None of the above.</option>
+                </select>
+                <div>
+                <button class="answer-button" type="button", onclick="alert('The correct answer is: C\nA variable is a datatype that is stored and used in the memory.\nIt can range from numbers, letters or even entire classes.')">Click Here For Answer!</button>
+                </div>
+            </div>
+            <div class="question-seperator"></div>
+
+            <div class="question">
+                <h2 class="question-title-text"><u>Question #2</u></h2>
+                <p class="question-text">Find the problem in the image given.</p>
+                <img src="https://media.discordapp.net/attachments/625064536902336553/1201683709422473297/image.png?ex=65cab62a&is=65b8412a&hm=bb83394086057156bdd90ee4813aff54f5644acb00b9797bc46d9036bc2c6428&=&format=webp&quality=lossless&width=1032&height=350" alt="question2img" width="1032" height="350">
+                <div>
+                <select class="solution-select" name="Solution #2" id="solution2">
+                    <option value="na">-- Please Pick an Option --</option>
+                    <option value="a">A) The 'if' statement isn't used this way.</option>
+                    <option value="b">B) The sign used for comparison is incorrect. </option>
+                    <option value="c">C) The variable you are comparing to doesn't exist / is null.</option>
+                    <option value="d">D) There is nothing wrong with the image.</option>
+                </select>
+                </div>
+                <div>
+                <button class="answer-button" type="button", onclick="alert('The correct answer is: B\nDo not forget that the comparison for equals to is two equal signs.\nLike so: ==')">Click Here For Answer!</button>
+                </div>
+            </div>
+            <div class="question-seperator"></div>
+        </main>
+    </body>
+</html>

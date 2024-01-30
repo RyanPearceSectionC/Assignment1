@@ -1,0 +1,46 @@
+body
+{
+    background-color: black;
+    font-size: 17px;
+    font-family: Consolas, 'Courier New', monospace;
+    color: white;
+}
+
+.question
+{
+    outline:rgb(0, 255, 255);
+    outline-style: dotted;
+    outline-offset: 2px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.question-title-text
+{
+    color: rgb(0, 255, 0);
+    padding: 0px;
+}
+
+.question-text
+{
+    color: rgb(0, 255, 255);
+}
+
+.solution-select
+{
+    background-color: black;
+    color: rgb(0, 255, 0);
+}
+
+.answer-button
+{
+    background-color: black;
+    color: white;
+    padding: 1px;
+}
+
+.question-seperator
+{
+    padding-bottom: 20px;
+}

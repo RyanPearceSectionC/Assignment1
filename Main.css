@@ -10,7 +10,7 @@ body
     background-color: black;
 }
 
-header, nav, main, footer
+header, nav, .main-divider, .main-container, footer
 {
     /*
         The font is not apart of auto-fill but I found it in VS Code's settings,
@@ -20,7 +20,6 @@ header, nav, main, footer
         The only issue is that I will need to test it on a device that doesn't have 
         VS Code or VS and that isn't on windows, like mobile for example to see if it works.
     */
-    border: 5px, solid, white;
     color: white;
     font-size: 17px;
     font-family: Consolas, 'Courier New', monospace;
@@ -28,6 +27,12 @@ header, nav, main, footer
     outline-style: dotted;
     outline-offset: 2px;
     text-indent: 1.5%;
+}
+
+.main-container
+{
+    outline-style: solid;
+    outline-offset: 5px;
 }
 
 header
