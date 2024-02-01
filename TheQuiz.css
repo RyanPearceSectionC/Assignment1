@@ -1,9 +1,14 @@
 body
 {
-    background-color: black;
+    background-color: rgb(10, 0, 10);
     font-size: 17px;
     font-family: Consolas, 'Courier New', monospace;
     color: white;
+}
+
+h1
+{
+    text-align: center;
 }
 
 .question
@@ -18,19 +23,19 @@ body
 
 .question-title-text
 {
-    color: rgb(0, 255, 0);
+    color: rgb(0, 255, 255);
     padding: 0px;
 }
 
 .question-text
 {
-    color: rgb(0, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .solution-select
 {
     background-color: black;
-    color: rgb(0, 255, 0);
+    color: rgb(0, 255, 255);
 }
 
 .answer-button
