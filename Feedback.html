@@ -15,12 +15,12 @@
                 <p>Hello! Welcome to the feedback! This is where you can submit feedback over to me! (Disclaimer for the Assignment: I have no idea how I am <i>actually</i> make something like this other than adding in the inputs. So this doesn't actually send anything to anyone.)</p>
 
                 <h1><u>Feedback Form</u></h1>
-                <p>Name: <input type="text"></p>
-                <p>ID: <input type="text"></p>
-                <p>Email: <input type="email"></p>
+                <p>Name: <input class="question" type="text"></p>
+                <p>ID: <input class="question" type="text"></p>
+                <p>Email: <input class="question" type="email"></p>
 
                 <p>What did you think about the website?</p>
-                <textarea rows="5" cols="60" name="tareaA" placeholder="Enter feedback here..."></textarea>
+                <textarea class="question" rows="5" cols="60" name="tareaA" placeholder="Enter feedback here..."></textarea>
 
                 <p>What would you change about the site?</p>
                 <input type="checkbox" id="style-cb">
@@ -32,11 +32,13 @@
                 <input type="checkbox" id="info-cb">
                 <label for="info-cb">Focus more on the content of the website.</label><br>
                 <input type="checkbox" id="other-cb">
-                <label for="other-cb">Other: <input type="text"/></label><br>
+                <label for="other-cb">Other: <input class="question" type="text"/></label><br>
 
                 <p>Final Thoughts?</p>
                 <textarea rows="5" cols="60" name="tareaB" placeholder="Enter final thoughts here..."></textarea>
-                <button type="submit" >Submit!</button>
+                <br>
+                <button class="question" type="submit">Submit!</button>
+
             </div>
         </main>
     </body>

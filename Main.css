@@ -41,6 +41,9 @@ video {
     padding-bottom: 0px;
     border: hidden;
 }
+.question, textarea{
+    color:black;
+}
 
 nav {
     background-color: rgb(0, 40, 0);
