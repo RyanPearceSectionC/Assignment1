@@ -56,15 +56,18 @@ nav {
 
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: stretch;
     border-spacing: 5px;
     flex-direction: column;
     background-color: rgb(0, 120, 0);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    text-indent: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: 1.5%;
 }
 .main-flex-divider {
     /*Used for images and videos in the same container.*/
@@ -73,8 +76,30 @@ main {
 }
 .main-flex-item {
     background-color: rgb(0, 10, 0);
+    border: rgb(0, 120, 0) solid 1px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
-.main-flex-item:hover {
+.main-flex-divider-video {
+    /*Used for the video specifically.*/
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-flex-video-link{
+    background-color: rgb(0, 10, 0);
+    border: rgb(0, 120, 0) solid 1px;
+    padding: 5px;
+    padding-right: 25px;
+}
+.main-flex-video-text{
+    background-color: rgb(0, 10, 0);
+    border: rgb(0, 120, 0) solid 1px;
+    text-indent: 1.5%;
+    padding-left: 10px;
+}
+.main-flex-item:hover, .main-flex-video-link:hover, .main-flex-video-text:hover {
     background-color: rgb(0, 50, 0);
 }
 .main-table, .main-table-header, .main-table-border {
@@ -114,5 +139,5 @@ footer {
     color: rgb(200, 0, 0);
 }
 .link-text {
-    color: blue;
+    color: rgb(180, 160, 0);
 }
