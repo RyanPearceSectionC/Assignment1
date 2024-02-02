@@ -4,15 +4,15 @@
     </head>
 
     <body>
-        <link rel="stylesheet" type="text/css" href="TheQuiz.css">
+        <link rel="stylesheet" type="text/css" href="Main.css">
 
         <header><h1><u>The Quiz!</u></h1></header>
         <nav>Test your knowledge and see what you may have learned from my site! Or you can go back <a href="Main.html">here</a>!</nav>
 
         <main>
-            <div class="question">
-                <h2 class="question-title-text"><u>Question #1</u></h2>
-                <p class="question-text">What is the purpose of a variable?</p>
+            <div class="main-flex-item">
+                <h2><u>Question #1</u></h2>
+                <p>What is the purpose of a variable?</p>
                 <select class="solution-select" name="Solution #1" id="solution1">
                     <option value="na">-- Please Pick an Option --</option>
                     <option value="a">A) Type of program you are trying to make.</option>
@@ -24,11 +24,10 @@
                 <button class="answer-button" type="button", onclick="alert('The correct answer is: C\nA variable is a datatype that is stored and used in the memory.\nIt can range from numbers, letters or even entire classes.')">Click Here For Answer!</button>
                 </div>
             </div>
-            <div class="question-seperator"></div>
 
-            <div class="question">
-                <h2 class="question-title-text"><u>Question #2</u></h2>
-                <p class="question-text">Find the problem in the image given.</p>
+            <div class="main-flex-item">
+                <h2><u>Question #2</u></h2>
+                <p>Find the problem in the image given.</p>
                 <img src="https://media.discordapp.net/attachments/625064536902336553/1201683709422473297/image.png?ex=65cab62a&is=65b8412a&hm=bb83394086057156bdd90ee4813aff54f5644acb00b9797bc46d9036bc2c6428&=&format=webp&quality=lossless&width=1032&height=350" alt="question2img" width="1032" height="350">
                 <div>
                 <select class="solution-select" name="Solution #2" id="solution2">
@@ -43,7 +42,6 @@
                 <button class="answer-button" type="button", onclick="alert('The correct answer is: B\nDo not forget that the comparison for equals to is two equal signs.\nLike so: ==')">Click Here For Answer!</button>
                 </div>
             </div>
-            <div class="question-seperator"></div>
         </main>
     </body>
 </html>

@@ -1,109 +1,59 @@
-body
-{
-    /*
-    Fits the theme of what I'm creating as text will end up being combinations of white and green.
-    I plan on making the font fit the idea of using a terminal rather than a website in a sense.
-    Obviously, I can't *actually* make a terminal with only HTML and CSS unless I get SUPER creative,
-    it's just better for more programming side of things rather than coding. What I mean is that Coding is like how HTML and CSS is,
-    where it's basic commands with results you can expect in that order. Programming to me is for more complex cases like making a calculator.
-    */
-    background-color: rgb(0, 2, 0);
-}
-
 *
 {
     font-family: Consolas, 'Courier New', monospace;
+    color:white;
 }
 
-header, nav, .main-divider, .main-container, footer
+body
 {
-    /*
-        The font is not apart of auto-fill but I found it in VS Code's settings,
-        I wanted to give it the 'programmer'/'coding' feel... so having a font
-        that gets used by Visual Studio was my idea to make it feel like it is.
-
-        The only issue is that I will need to test it on a device that doesn't have 
-        VS Code or VS and that isn't on windows, like mobile for example to see if it works.
-    */
-    color: white;
-    font-size: 17px;
-    outline: rgb(0, 255, 0); /*Brighter green than green... lightgreen is just a large amount of white with green. I just want 255 green.*/
-    outline-style: dotted;
-    outline-offset: 2px;
-    text-indent: 1.5%;
-}
-
-/*The ones grouped up close without spaces that start with .main are for the main content of the site. It's used just to keep everyone closed up together and organized.*/
-.main-container
-{
-    outline-style: solid;
-    outline-offset: 5px;
-    padding-left: 3px;
-}
-.main-divider, .main-divider-flex-c
-{
-    padding-bottom: 2px;
-}
-.main-divider-flex-c
-{
-    display: flex;
-    justify-content:space-evenly;
-    flex-direction: row;
-    column-gap: 10px;
-    padding-top: 20px;
-
-}
-.main-divider-flex-i, .main-divider-flex-i-center
-{
-    border:rgb(0, 255, 0) dotted;
-    flex-grow: 1;
-    text-indent: 1.5%;
-    padding:0px;
-}
-.main-divider-flex-i-center
-{
-    align-self: center;
-    text-indent: 0%; /*I know I'm using this for videos and images but for some reason it'll indent iFrame despite it not being text.*/
-    padding: 2px;
-    padding-right: 4px;
-    padding-bottom: 2px;
-}
-.main-divider:hover, .main-divider-flex-i:hover, .main-divider-flex-i-center:hover
-{
-    background-color: rgba(0, 15, 0, 255);
+    background-color: rgb(40, 0, 0);
 }
 
 header
 {
-    outline-style: solid;
-    text-indent: 1%;
+    background-color: rgb(110, 0, 0);
+    padding-bottom: 0px;
 }
 
 nav
 {
+    background-color: rgb(50, 0, 0);
     padding-top: 0px;
-}
-
-.border-spacer-main /*From nav to main.*/
-{
-    padding: 15px;
+    padding-bottom: 20px;
 }
 
 main
 {
-    padding-top: 0px;
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    border-spacing: 5px;
+    flex-direction: column;
+    background-color: rgb(50, 0, 0);
+    padding-bottom: 20px;
+    padding-left: 5px;
+    text-indent: 10px;
 }
 
-.border-spacer-footer /*From main/aside to footer.*/
+.main-flex-divider
 {
-    padding: 5px;
+    /*Used for images and videos in the same container.*/
+    display: flex;
 }
 
-/*-- TEXT CLASSES --*/
-.important-text /* NOTE TO SELF: Use LABEL for this. It works, it doesn't create new lines, it's just better. */
+.main-flex-item
 {
-    color: rgb(0, 255, 0);
-    font-size: 18px; /* Making it only *slightly* bigger to make it pop out that much more. */
-    font-weight: 1000;
+    color: white;
+    background-color: rgb(110, 0, 0);
+    padding-bottom: 5px;
+}
+
+footer
+{
+    background-color: rgb(110, 0, 0);
+}
+
+.important-text
+{
+    color: rgb(125, 0, 200);
 }
