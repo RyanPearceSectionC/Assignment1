@@ -7,7 +7,7 @@
 <body>
     <link rel="stylesheet" type="text/css" href="Main.css">
 
-    <header>
+   <header>
         <h1 class="feedback-page-title"><u>Feedback!</u></h1>
     </header>
     <nav>If you'd like to go back to the main site, you can do so <a href="Main.html">here</a>!</nav>
@@ -15,40 +15,45 @@
     <main class="feedback-container">
         <div class="feedback-bg">
             <h1><u>Feedback Disclaimer</u></h1>
-            <p>Hello! Welcome to the feedback! This is where you can submit feedback over to me! (Disclaimer for the Assignment: I have no idea how I am <i>actually</i> make something like this other than adding in the inputs. So this doesn't actually send anything to anyone.)</p>
+            <p>Hello! Welcome to the feedback! This is where you can submit feedback over to me!<br>(Disclaimer for the Assignment: I have no idea how I am <i>actually</i> make something like this other than adding in the inputs. So this doesn't actually send anything to anyone.)</p>
             <h1><u>Feedback Form</u></h1>
             <div class="feedback-divider">
+                <div class="feedback-flex-item-border">
                     <h2><u>User Info</u></h2>
                     <p>Name: <input class="question" type="text"></p>
                     <p>ID: <input class="question" type="text"></p>
                     <p>Email: <input class="question" type="email"></p>
-            </div>
-            <div class="feedback-divider">
-                <p>What did you think about the website?</p>
-                <textarea class="question" rows="5" cols="60" name="tareaA" placeholder="Enter feedback here..."></textarea>
-            </div>
-            <div clas="feedback-divider">
-                <p>What would you change about the site?</p>
-                <input type="checkbox" id="style-cb">
-                <label for="style-cb">Change the website's style.</label><br>
-                <input type="checkbox" id="layout-cb">
-                <label for="layout-cb">Change the website's layout.</label><br>
-                <input type="checkbox" id="media-cb">
-                <label for="media-cb">Change the video and images.</label><br>
-                <input type="checkbox" id="info-cb">
-                <label for="info-cb">Focus more on the content of the website.</label><br>
-                <input type="checkbox" id="other-cb">
-                <label for="other-cb">Other: <input class="question" type="text" /></label><br>
+                </div>
+                <div class="feedback-flex-item">
+                    <h2>What did you think about the website?</h2>
+                    <textarea class="question" rows="5" cols="60" name="tareaA" placeholder="Enter feedback here..."></textarea>
+                </div>
             </div>
 
             <div class="feedback-divider">
-                <h1>Final Thoughts and Submit Button</h1>
-                <textarea rows="5" cols="60" name="tareaB" placeholder="Enter final thoughts here..."></textarea>
-                <br>
-                <button class="question" type="submit">Submit!</button>
+                <div class="feedback-flex-item">
+                    <h2>What would you change about the site?</h2>
+                    <input type="checkbox" id="style-cb">
+                    <label for="style-cb">Change the website's style.</label><br>
+                    <input type="checkbox" id="layout-cb">
+                    <label for="layout-cb">Change the website's layout.</label><br>
+                    <input type="checkbox" id="media-cb">
+                    <label for="media-cb">Change the video and images.</label><br>
+                    <input type="checkbox" id="info-cb">
+                    <label for="info-cb">Focus more on the content of the website.</label><br>
+                    <input type="checkbox" id="other-cb">
+                    <label for="other-cb">Other: <input class="question" type="text" /></label><br>
+                </div>
+
+                <div class="feedback-flex-item-border">
+                    <h2>Final Thoughts and Submit Button</h2>
+                    <textarea rows="8" cols="180" name="tareaB" placeholder="Enter final thoughts here..."></textarea>
+                    <br>
+                    <button class="question" type="submit">Submit!</button>
+                </div>
             </div>
         </div>
-    </main>
+</main>
 </body>
 
 </html>
